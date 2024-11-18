@@ -39,11 +39,11 @@ function Navbar() {
   };
 
   return (
-    <nav className="text-black px-6 py-6 flex justify-between items-center">
-      <div className="text-teal-600 text-xl font-semibold">Blog Platform</div>
+    <nav className="text-black px-6 py-4 flex justify-between items-center">
+      <div className="text-teal-600 text-3xl font-semibold">Blog Platform</div>
 
       {/* Desktop Navigation */}
-      <div className="hidden lg:flex items-center space-x-4">
+      <div className="hidden lg:flex items-center space-x-10">
         <Link to="/" className={pageStyle}>
           Home
         </Link>
@@ -61,7 +61,7 @@ function Navbar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
             >
-              <AccountCircleIcon />
+              <AccountCircleIcon sx={{ width: 40, height: 40}}/>
             </IconButton>
             <Menu
               anchorEl={anchorEl}

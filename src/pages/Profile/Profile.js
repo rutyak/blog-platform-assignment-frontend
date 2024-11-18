@@ -29,14 +29,15 @@ const Profile = () => {
 
   return (
     <div className="min-h-[87.9vh] bg-gray-100">
-      <div className="relative bg-gradient-to-r from-blue-500 to-green-500 h-40 flex items-center justify-center shadow-lg">
-        <div className="absolute bottom-[-3rem] flex flex-col items-center">
+      <div className="relative bg-gradient-to-r from-blue-500 to-green-500 h-60 flex items-center justify-center shadow-lg">
+        <div className="absolute bottom-[1rem] flex flex-col items-center">
           <Avatar
             alt="User Profile"
             src="/static/images/avatar/1.jpg"
             sx={{
               width: 150, 
               height: 150,
+              marginBottom: 1,
               border: "4px solid white",
               boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
             }}
@@ -49,7 +50,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="mt-24 flex justify-center px-6 gap-6 mobile:flex-col md:flex-row">
+      <div className="mt-16 flex justify-center px-6 gap-6 mobile:flex-col md:flex-row">
         <div className="w-full md:w-1/4 bg-white shadow-md rounded-lg p-6">
           <h3 className="text-lg font-semibold mb-6 text-gray-800">
             Account Options

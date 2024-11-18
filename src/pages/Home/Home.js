@@ -44,8 +44,8 @@ function Home() {
 
   return (
     <div className="min-h-screen p-6">
-      <div className="text-center py-12 text-white rounded-lg shadow-lg mb-8 bg-[linear-gradient(151.71deg,_#29C986_0%,_#2FC8E5_100%)] mobile:py-7 md:py-12">
-        <h1 className="text-4xl font-bold mb-4 mobile:text-2xl md:text-4xl">
+      <div className="text-center py-10 text-white rounded-lg shadow-lg mb-8 bg-[linear-gradient(151.71deg,_#29C986_0%,_#2FC8E5_100%)] mobile:py-7 md:py-12">
+        <h1 className="text-4xl font-bold mb-4 mobile:text-2xl md:text-3xl">
           Welcome to Our Blogging Platform
         </h1>
         <p className="text-lg mb-6 mobile:text-sm md:text-lg">
@@ -55,10 +55,10 @@ function Home() {
 
       <section>
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-2xl font-semibold text-gray-800 mobile:text-[17px] md:text-2xl">Recent Posts</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mobile:text-[17px] md:text-xl">Recent Posts</h2>
           <div className="flex items-center gap-4">
             <div className="flex items-center space-x-4">
-              <h3 className="text-lg font-semibold text-gray-800 mobile:text-[17px] md:text-2xl">Filter by Tag</h3>
+              <h3 className="text-lg font-semibold text-gray-800 mobile:text-[17px] md:text-xl">Filter by Tag</h3>
               <TextField
                 select
                 label="Select Tag"

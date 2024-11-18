@@ -22,7 +22,7 @@ function BlogPosts({editMode}) {
       setPosts(data);
 
     } catch (error) {
-      toast.error("Failed to fetch posts. Please try again later.");
+      // toast.error("Failed to fetch posts. Please try again later.");
       console.error(error);
     }
   };
